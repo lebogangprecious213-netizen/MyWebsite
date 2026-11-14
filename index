@@ -1,14 +1,767 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-</head>
-<body>
 
-    <h1>Hello, World!</h1>
-    <p>Welcome to my first webpage.</p>
-
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed":"#2c1600","on-primary-container":"#5b3912","on-primary-fixed-variant":"#623f18","on-surface":"#1f1b1b","primary-fixed-dim":"#f0bd8b","on-tertiary-fixed":"#301216","surface-variant":"#e9e0e0","tertiary-fixed":"#ffdadc","secondary-container":"#ff86a1","surface":"#fff8f7","on-secondary-fixed-variant":"#81233f","secondary":"#a03b56","surface-container-high":"#efe6e6","inverse-surface":"#342f2f","on-tertiary":"#ffffff","on-surface-variant":"#50453b","on-tertiary-fixed-variant":"#623c40","tertiary":"#7c5357","primary-fixed":"#ffdcbd","surface-container-highest":"#e9e0e0","on-primary":"#ffffff","on-background":"#1f1b1b","error":"#ba1a1a","on-error-container":"#93000a","tertiary-container":"#d2a0a4","on-error":"#ffffff","inverse-on-surface":"#f8efee","surface-container-lowest":"#ffffff","on-tertiary-container":"#5b363a","primary":"#7d562d","on-secondary-container":"#771b37","primary-container":"#d4a373","inverse-primary":"#f0bd8b","background":"#fff8f7","surface-dim":"#e1d8d7","outline":"#82756a","on-secondary-fixed":"#3f0016","on-secondary":"#ffffff","surface-bright":"#fff8f7","outline-variant":"#d4c4b7","surface-container-low":"#fbf1f1","surface-container":"#f5eceb","error-container":"#ffdad6","secondary-fixed":"#ffd9df","surface-tint":"#7d562d","tertiary-fixed-dim":"#eeb9bd","secondary-fixed-dim":"#ffb1c0"},borderRadius:{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},spacing:{"space-xl":"2.5rem","margin":"3rem","gutter-mobile":"1rem","space-xs":"0.25rem","gutter":"1.5rem","space-sm":"0.5rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-md":"1rem"},fontFamily:{"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Newsreader"],"headline-lg":["Newsreader"],"body-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Newsreader"],"label-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Newsreader"],"display-hero":["Newsreader"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.06em",fontWeight:"600"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"400"}],"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.015em",fontWeight:"400"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.1em",fontWeight:"700"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.08em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"headline-md":["28px",{lineHeight:"36px",fontWeight:"500"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"400"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_12px_rgba(212,163,115,0.08)]"><div class="bg-secondary text-on-secondary py-1.5 px-margin text-center flex items-center justify-center gap-2"><span class="material-symbols-outlined text-sm leading-none">auto_awesome</span><p class="font-label-sm uppercase tracking-widest">Complimentary Rose Quartz Gua Sha on orders $75+ | Use code <span class="font-bold underline underline-offset-2">GLOWVIRAL</span></p></div><div class="h-24 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-3 group" data-path="shop-all" href="#"><img alt="GLOW SOCIETY Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCPkXyv0VLl3taPGxhUoL7UmgPebgEBD66Gkr5EdIRI8s1f5p91aB2IZFfbw6qB9Nxh93zyReQyWc-uIL2ot6VnC9BmEXkLtdN3Bz9x04jYXL3UWgKZYIhulLjjKoVeMKc51w31OA9snTUH_NMmj0A4rAFI4OfhjIJP44EfZogiAzUZwky4A-9C2lHdmNjg1IMgE2gRX00iIBxZqQgL4Hxhnj7C58u5vDdICB0HRvk"/><span class="font-headline-sm uppercase tracking-wider text-on-surface font-semibold">GLOW SOCIETY</span></a></div><div class="relative flex-1 max-w-md hidden xl:block"><div class="flex items-center bg-surface-container-low rounded-full px-4 py-2 transition-all focus-within:ring-2 focus-within:ring-primary-container focus-within:bg-surface-container-lowest"><span class="material-symbols-outlined text-outline text-xl mr-2">search</span><input class="bg-transparent border-0 outline-none w-full text-body-sm text-on-surface placeholder:text-outline" placeholder="Search pigments, highlighters, serums..." type="text"/><div class="flex items-center gap-1.5 ml-2"><span class="font-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Tint</span><span class="font-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Oil</span><span class="font-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Balm</span></div></div></div><div class="flex items-center gap-space-md"><a class="relative p-2 rounded-full hover:bg-surface-container transition-colors group flex items-center justify-center" data-path="wishlist" href="#"><span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary transition-colors">favorite</span><span class="absolute top-1 right-1 w-4 h-4 bg-secondary text-on-secondary rounded-full font-label-sm flex items-center justify-center text-[9px]">4</span></a><a class="flex items-center gap-2.5 bg-surface-container-low hover:bg-surface-container px-3.5 py-1.5 rounded-full transition-all group" data-path="shopping-bag" href="#"><span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">shopping_bag</span><div class="flex flex-col text-left"><span class="font-label-sm text-on-surface uppercase">2 Items</span><span class="font-label-sm text-primary font-bold">$68.00</span></div></a><div class="h-8 w-px bg-outline-variant/40 mx-1"></div><a class="flex items-center gap-2.5 pl-1 rounded-full group" data-path="vip-beauty-club" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDerv7anDAc6u_HHeHvuSbppTmgRHi_LqT6-UummacghpiyKfyv9K6nqt_abT4fFnrEoU8pfOQCh9J0UrVfGHQjoCXJ8utNjqOwS2KFMFNyURg0cYcX0KfM0q-ahWhelTMtgEOpuSXK517t2nWspE-DKN_sDxZQcstroideJ2xa3o9PTxi0Jzim8y2FcGQU15n8mlfuSKCm7Qn0D5O9nnUUbjCKd9dfjs-niP8U9A"/><div class="hidden md:flex flex-col text-left leading-none"><span class="font-label-sm text-primary font-bold uppercase tracking-wider">VIP Gold</span><span class="font-body-sm text-on-surface-variant">Camille</span></div></a></div></div><div class="bg-surface/95 border-t border-outline-variant/20 shadow-[0_4px_16px_rgba(33,29,29,0.02)]"><div class="max-w-[1440px] mx-auto px-margin"><nav class="flex items-center justify-center gap-space-xl py-2.5 overflow-x-auto" data-active-classes="text-primary font-semibold border-b-2 border-primary"><a aria-current="page" class="uppercase tracking-wider transition-colors py-1 whitespace-nowrap text-primary font-semibold border-b-2 border-primary" data-path="shop-all" href="#">Shop All</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="face-&amp;-glow" href="#">Face &amp; Glow</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="lip-&amp;-velvet" href="#">Lip &amp; Velvet</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="eyes-&amp;-shimmer" href="#">Eyes &amp; Shimmer</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="viral-drops" href="#">Viral Drops</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="shade-finder-quiz" href="#">Shade Finder Quiz</a><a class="font-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1 whitespace-nowrap" data-path="vip-beauty-club" href="#">VIP Beauty Club</a></nav></div></div></header><main class="w-full pt-36 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. HIGH-IMPACT EDITORIAL HERO SECTION -->
+<section class="relative w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-4 pb-16 overflow-hidden">
+<!-- Subtle Ambient Glow Orbs -->
+<div class="absolute -top-24 right-1/4 w-96 h-96 bg-primary-container/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/2 -left-20 w-80 h-80 bg-secondary-container/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center min-h-[580px]">
+<!-- Left Column: Editorial Headline & Actions (7 cols) -->
+<div class="lg:col-span-7 flex flex-col justify-center pr-0 lg:pr-6 z-10">
+<!-- Social Proof Pill -->
+<div class="inline-flex items-center gap-2 self-start bg-surface-container-low px-4 py-2 rounded-full shadow-sm mb-6">
+<div class="flex items-center text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-on-surface uppercase tracking-wider">
+            4.9/5 stars over 45k reviews <span class="text-outline-variant font-normal">|</span> TikTok <span class="text-secondary font-bold">#GlowSociety</span> 120M views
+          </span>
+</div>
+<span class="font-label-md text-secondary uppercase tracking-[0.2em] font-semibold mb-2">Modern Clean Pigment Formulation</span>
+<h1 class="font-display-hero text-on-surface leading-[1.08] tracking-tight mb-5">
+          Unapologetic Radiance. <br/>
+<span class="italic font-display-hero text-primary">Glass Skin Perfected.</span>
+</h1>
+<p class="font-body-lg text-on-surface-variant max-w-xl mb-8 leading-relaxed">
+          Award-winning clean color cosmetics infused with skincare bio-actives for a seamless, lit-from-within glow. Tactile velvet textures formulated for all-day luminous wear.
+        </p>
+<!-- CTA Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-10">
+<a class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-on-primary font-label-lg uppercase tracking-wider shadow-lg hover:shadow-primary/40 hover:scale-[1.02] transition-all duration-300" href="#">
+<span>Shop Viral Drops</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest font-label-lg uppercase tracking-wider transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-secondary text-lg">face_retouching_natural</span>
+<span>Take 60s Shade Match Quiz</span>
+</a>
+</div>
+<!-- Metrics Strip -->
+<div class="grid grid-cols-3 gap-4 pt-6 max-w-lg bg-surface-container-lowest/70 backdrop-blur-md rounded-2xl p-4 shadow-sm">
+<div>
+<p class="font-headline-sm text-on-surface font-bold">100%</p>
+<p class="font-body-sm text-on-surface-variant">Cruelty-Free &amp; Vegan</p>
+</div>
+<div>
+<p class="font-headline-sm text-secondary font-bold">36+</p>
+<p class="font-body-sm text-on-surface-variant">Adaptable True Tones</p>
+</div>
+<div>
+<p class="font-headline-sm text-primary font-bold">24HR</p>
+<p class="font-body-sm text-on-surface-variant">Weightless Hydration</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Bespoke Visual Composition (5 cols) -->
+<div class="lg:col-span-5 relative mt-6 lg:mt-0">
+<!-- Floating Backdrop Decorative Card -->
+<div class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="High fashion beauty editorial photography of a model with radiant dewy glass skin wearing warm champagne highlighter and rose nectar glazed lip oil looking into warm studio lighting with soft gold background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOV-h4nSH-o6zsWr3LoKyzBxKQZm0upklUcQpRBHuugSFUtvKBpvXwzxRU2DXm5wYM4_z1Uowa2QhU6P3XC25sGSRfaDq1BsPfCiaq4MXBcMmjUEGR-Rqp9bL-SrNPQVVsLZGoTTVLruxE_O12KL4JuIfgAEnjUqgeFlgPNNL3YC3zqkAYjFZjmGOlcS2KaNWi_hzomfv6a0fLkRW46Ht7xctAbCVRynm_n8I_H5s"/>
+<!-- Glassmorphic Editorial Callout Pill -->
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-surface/85 backdrop-blur-xl shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/40 flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-xl">auto_awesome</span>
+</div>
+<div>
+<p class="font-label-sm text-secondary uppercase tracking-wider">Iconic Sensation</p>
+<p class="font-label-lg text-on-surface font-bold">Dew-Drenched Filter Complexion</p>
+</div>
+</div>
+<span class="font-label-sm px-3 py-1 rounded-full bg-secondary text-on-secondary font-semibold uppercase">Trending</span>
+</div>
+</div>
+<!-- Overlapping Secondary Micro-Card -->
+<div class="hidden sm:flex absolute -bottom-6 -left-8 p-3 rounded-2xl bg-surface-container-lowest/95 backdrop-blur-md shadow-xl items-center gap-3 max-w-xs">
+<img class="w-14 h-14 rounded-xl object-cover" data-alt="Close up Macro shot of luxury gold cosmetic serum bottle with pipette dropping a glistening pearlescent liquid drop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUUKYRse7bPfg7_PTPUM9-f2iV9d3UEDLPQEQ5NwQeJbOBT-tGQ6q0Xqwn-0-h-1ZNDCyFxHrqVGm-GtSZhgXnLJmgVtQcMPP_BTNy9NPOPUQ2zwpGu4p-V9K5baEaKY5dMXfWQAaOsAJ9zYIgdlUU-nTgJOxCluQq6Vp597CaxnR1JCKZvbnuszS-K5lQ9WpXwHPklbSUK0bvWe5EkSXC1qB0PQok6PmYKspc5C0"/>
+<div>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-on-surface font-bold">4.96 / 5</span>
+</div>
+<p class="font-body-sm text-on-surface-variant leading-tight">"Skin looks like silk in direct sunlight."</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. CURATED LUXURY CATEGORY TILES -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<span class="font-label-md text-secondary uppercase tracking-widest font-semibold">The Edit</span>
+<h2 class="font-headline-lg text-on-surface mt-1">Curated Color Universes</h2>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-md mt-2 md:mt-0">
+        Bespoke formulas crafted with skincare actives, ultra-refined pearls, and velvet botanical waxes.
+      </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Tile 1 -->
+<a class="group relative rounded-3xl overflow-hidden aspect-[3/4] bg-surface-container flex flex-col justify-end p-6 shadow-md hover:shadow-xl transition-all duration-300" href="#">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Close up macro editorial shot of dewy glowing cheekbones with champagne liquid highlighter applied on flawless warm skin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAft0uAdnQ41ENbUIXEJWyPWmZq-uNGjJry2ulQxY4cc6AI-XiyW0MWnYGDPttJ6PMmEWpmMHBlY0gXY7DcAlfwPX35g7mVpLIAgm3EpBzzLu35YYsc9uN2mTCxgioCZlsU6CQgVgD3OonCe0GR59r50tihPAxQTF5c0E-CAzZEvsMPSvE4oOiORCWxC7B4Wz2EE29-gCJXJYR39di2SISSHPtHdthMC_ZqDmyF9mI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/85 via-inverse-surface/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/30 backdrop-blur-md font-label-sm tracking-widest uppercase mb-2">9 Formulations</span>
+<h3 class="font-headline-sm font-semibold tracking-wide">Luminous Complexion</h3>
+<p class="font-body-sm text-surface-container-low opacity-90 mt-1 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+<span>Explore foundations &amp; tints</span>
+<span class="material-symbols-outlined text-sm">north_east</span>
+</p>
+</div>
+</a>
+<!-- Tile 2 -->
+<a class="group relative rounded-3xl overflow-hidden aspect-[3/4] bg-surface-container flex flex-col justify-end p-6 shadow-md hover:shadow-xl transition-all duration-300" href="#">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="High gloss lips wearing tinted berry peptide glaze oil in clean luxury studio light with water reflection backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIf0qI3DO0y8x9xE7gOe_P383doKsunokBEwN13glnZApcuk5P60a1f9MM9cMIWO2_EeYSaNkoGamvI6eqw9fPMNhYbSkHfH3fSwf75lM2tTckJSPovOWJuKNalhWGK9B6cfDFrkkH_LHlxT978iO5MFYct_Xjl8erHIGcRM99bEWwsHRmEqxTnRbpDj6aS-wrXblGiBBFUS_WronQrPtR3lY_kSQkTEOGKf7Q50I"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/85 via-inverse-surface/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/30 backdrop-blur-md font-label-sm tracking-widest uppercase mb-2">Viral Drop</span>
+<h3 class="font-headline-sm font-semibold tracking-wide">Velvet &amp; Glaze Lips</h3>
+<p class="font-body-sm text-surface-container-low opacity-90 mt-1 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+<span>Discover peptide balms &amp; oils</span>
+<span class="material-symbols-outlined text-sm">north_east</span>
+</p>
+</div>
+</a>
+<!-- Tile 3 -->
+<a class="group relative rounded-3xl overflow-hidden aspect-[3/4] bg-surface-container flex flex-col justify-end p-6 shadow-md hover:shadow-xl transition-all duration-300" href="#">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Editorial metallic rose chrome eyeshadow swatch glistening on eyelids with high fashion dramatic editorial eye makeup lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbs1VeryKDuKWjcKufhP0kqCHwS8YyqrvJhmwRvcFGvyo3VUKLUTCDjDmvwFMLRhuBOdx5cKGGG7fZbStgD50kdEFQihKJmpeu0_aelFczT0YC2Kq3PwSqIvG1kvifH9hvnj-DoaUR-D09trbbtMAlp1wpMTUTIOznMjGiO7Jrfb8zL4fL9PH6-4pkfj8kRLREuCTAq2QviNCc2hfEshC1UUEllzvy3YSx4d2fdUY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/85 via-inverse-surface/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/30 backdrop-blur-md font-label-sm tracking-widest uppercase mb-2">Multi-Chromatic</span>
+<h3 class="font-headline-sm font-semibold tracking-wide">Liquid Chrome Eyes</h3>
+<p class="font-body-sm text-surface-container-low opacity-90 mt-1 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+<span>Foil pigments &amp; shimmers</span>
+<span class="material-symbols-outlined text-sm">north_east</span>
+</p>
+</div>
+</a>
+<!-- Tile 4 -->
+<a class="group relative rounded-3xl overflow-hidden aspect-[3/4] bg-surface-container flex flex-col justify-end p-6 shadow-md hover:shadow-xl transition-all duration-300" href="#">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Glass jar of smooth melting skincare prep balm surrounded by water droplets and clean rose quartz stone textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZYJoiHH6CsRjJcZ_uxUogbd9knk8Pld36VAJSloJZVW3LjM9SsXaZOauuC6p-Kb3b-gqYtYLEbWZwtzxIlpu3sll1factciN3FE3w-XtljnszunLsgjMH-Yby6RZDdPxfkNVeVFB34y9HW9saA3lhS1YQ7aI_ksAvoRC6yFyyTYsEQhFWXc8XLXUX7IAZCXlNC5EZSilpp1cn8ZnI0zVJX02Aig-DCscnx2nXPTU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/85 via-inverse-surface/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/30 backdrop-blur-md font-label-sm tracking-widest uppercase mb-2">Skin First</span>
+<h3 class="font-headline-sm font-semibold tracking-wide">Preps &amp; Primers</h3>
+<p class="font-body-sm text-surface-container-low opacity-90 mt-1 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+<span>Glass melts &amp; barrier serums</span>
+<span class="material-symbols-outlined text-sm">north_east</span>
+</p>
+</div>
+</a>
+</div>
+</section>
+<!-- 3. TRENDING VIRAL DROPS & BESTSELLERS (PRODUCT CARDS) -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-16">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-10">
+<div>
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-secondary uppercase tracking-widest font-bold">Trending On TikTok &amp; Runway</span>
+</div>
+<h2 class="font-headline-lg text-on-surface mt-1">Viral Bestsellers</h2>
+</div>
+<div class="flex items-center gap-2 self-end sm:self-center">
+<button aria-label="Previous products" class="w-11 h-11 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">west</span>
+</button>
+<button aria-label="Next products" class="w-11 h-11 rounded-full bg-primary hover:bg-primary/90 flex items-center justify-center text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">east</span>
+</button>
+</div>
+</div>
+<!-- 4 Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product 1 -->
+<div class="group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Visual & Badges -->
+<div class="relative aspect-square w-full rounded-2xl overflow-hidden bg-surface-container mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury glass bottle with dropper containing Lumi-Silk Serum Foundation on clean pink travertine surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNNTQ4cbjtd4EUWH2tgiuQNyN1vcFNiSaESumQ5BB1_YmgT1xxujlbBIn5gDReb-npXYGqokAqYy2WeIUpOVXsp5MlnVfcm2pRKB_7iMZZA-7XJRj7XO87UAXPVoI48jXh8beAg2VmKXLIuO9eiPPp81zrWHVws_a30MkruQ9GK73wBiFObVcx6Hu1xDJ5aZnVmVz35uUyNBj6xt4hWV2ARCogPEq8pwcgQdiqL9A"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="px-2.5 py-1 rounded-full bg-primary text-on-primary font-label-sm uppercase tracking-wider font-semibold">Award Winner</span>
+<span class="px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-md text-on-surface font-label-sm uppercase tracking-wider">SPF 30</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">favorite</span>
+</button>
+</div>
+<!-- Rating & Title -->
+<div class="flex items-center gap-1.5 mb-1.5">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-on-surface font-bold">4.9</span>
+<span class="font-body-sm text-on-surface-variant">(12,410)</span>
+</div>
+<h3 class="font-headline-sm text-on-surface text-base font-semibold group-hover:text-primary transition-colors">
+            Lumi-Silk Serum Foundation
+          </h3>
+<p class="font-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Weightless hydration with breathable buildable coverage</p>
+<!-- Shade Bar Preview -->
+<div class="mt-3.5 mb-4">
+<div class="flex items-center justify-between text-on-surface-variant mb-1.5">
+<span class="font-label-sm uppercase">36 Skin-True Shades</span>
+<span class="font-label-sm text-secondary font-semibold">Preview Bar</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-4 h-4 rounded-full bg-[#fce4d6] shadow-sm ring-1 ring-primary/40 cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#f2c7a5] shadow-sm cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#dca87d] shadow-sm cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#aa734e] shadow-sm cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#6d4128] shadow-sm cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#3d2417] shadow-sm cursor-pointer"></span>
+<span class="font-label-sm text-on-surface-variant ml-1 font-semibold">+30</span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-surface-container flex items-center justify-between mt-2">
+<div>
+<span class="font-headline-sm text-on-surface font-bold">$42.00</span>
+<span class="font-label-sm text-on-surface-variant block uppercase">1.0 fl oz / 30ml</span>
+</div>
+<button class="px-4 py-2.5 rounded-full bg-on-surface text-surface hover:bg-primary font-label-md uppercase tracking-wider transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+<span>Add</span>
+</button>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square w-full rounded-2xl overflow-hidden bg-surface-container mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chic transparent tube of Plump and Glaze Peptide Lip Oil in shade Rose Nectar showing plush doe foot applicator tip" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIXGQuKPz6zGitIUE7f1C0C8sxXssklNRFZQPun_29tSgLHdbbPn4-yJWpZWLQMxOew228i4B-jU1zVwwdYiLBKtL-dCZPP5LRCtVI9YxmE2bD5puWwi0XtA1EPUwE3jvOL-d2P5YDSix1t7NSvw3S_z_Lwskl2t6hO2w_yal1HKjpoZJQTh1Z9lbxvgb9gpRjv-GOgsEi3SgT1H7XAFUHQhAncrTsQdEhHZXpTbc"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm uppercase tracking-wider font-semibold">Sold Out 3x</span>
+<span class="px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-md text-on-surface font-label-sm uppercase tracking-wider">Peptides</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">favorite</span>
+</button>
+</div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-on-surface font-bold">5.0</span>
+<span class="font-body-sm text-on-surface-variant">(18,920)</span>
+</div>
+<h3 class="font-headline-sm text-on-surface text-base font-semibold group-hover:text-primary transition-colors">
+            Plump &amp; Glaze Peptide Lip Oil
+          </h3>
+<p class="font-body-sm text-on-surface-variant mt-0.5 line-clamp-1">High-shine cushion finish without stickiness</p>
+<div class="mt-3.5 mb-4">
+<div class="flex items-center justify-between text-on-surface-variant mb-1.5">
+<span class="font-label-sm uppercase">Active Shade: Rose Nectar</span>
+<span class="font-label-sm text-primary font-semibold">8 Shades</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-4 h-4 rounded-full bg-[#c95b74] ring-2 ring-primary ring-offset-1 cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#b8423f] cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#df8a8c] cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#8c334b] cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#e3aa92] cursor-pointer"></span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-surface-container flex items-center justify-between mt-2">
+<div>
+<span class="font-headline-sm text-on-surface font-bold">$24.00</span>
+<span class="font-label-sm text-on-surface-variant block uppercase">Triple Peptides</span>
+</div>
+<button class="px-4 py-2.5 rounded-full bg-on-surface text-surface hover:bg-primary font-label-md uppercase tracking-wider transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+<span>Add</span>
+</button>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square w-full rounded-2xl overflow-hidden bg-surface-container mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Celestial Liquid Chrome Highlighter in Champagne Quartz with glass bottle catching sunlight creating golden prisms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfN_UxxMXzkIQAnSxrb1rDNkEPMDUY6eSlU1WOGCyCIQFaF9ZAzPxzzlBR2O7Rb6peVYU6yxVp-AgFMGNh_1LGaxAXFB0jdr0VkU9Pg8j14_J3W_rx9lNm9JTVxwitVSmyOOaiPtxcIzg9fQ9iYYG_idkIzR4-UPGojT-I-K1O1D5_sKXnh4PurgUev35X2CS3Qn_vatc8_ZzTk7f89pzYs5t0SbdET3W8qdo4wpA"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-md text-on-surface font-label-sm uppercase tracking-wider">Multi-Use</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">favorite</span>
+</button>
+</div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-on-surface font-bold">4.8</span>
+<span class="font-body-sm text-on-surface-variant">(6,840)</span>
+</div>
+<h3 class="font-headline-sm text-on-surface text-base font-semibold group-hover:text-primary transition-colors">
+            Celestial Liquid Chrome Highlighter
+          </h3>
+<p class="font-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Prismatic molten finish for high points and collarbones</p>
+<div class="mt-3.5 mb-4">
+<div class="flex items-center justify-between text-on-surface-variant mb-1.5">
+<span class="font-label-sm uppercase">Shade: Champagne Quartz</span>
+<span class="font-label-sm text-primary font-semibold">5 Shades</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-4 h-4 rounded-full bg-[#f7d9a8] ring-2 ring-primary ring-offset-1 cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#f8e3db] cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#d69f7e] cursor-pointer"></span>
+<span class="w-4 h-4 rounded-full bg-[#ba704f] cursor-pointer"></span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-surface-container flex items-center justify-between mt-2">
+<div>
+<span class="font-headline-sm text-on-surface font-bold">$32.00</span>
+<span class="font-label-sm text-on-surface-variant block uppercase">Liquid Pearl</span>
+</div>
+<button class="px-4 py-2.5 rounded-full bg-on-surface text-surface hover:bg-primary font-label-md uppercase tracking-wider transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+<span>Add</span>
+</button>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square w-full rounded-2xl overflow-hidden bg-surface-container mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Frosted glass jar of Glass Skin Hydration Melt Balm showing velvety whipped texture with golden spatula resting on lid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjekzrbAGz-jxhjMSEMTRN4PG8oKOaS7f7Iy_juSuftFBfiY8fNejvHdvov6ddVyOBfOEy2gYraUrGFbjvGCReDHu3jFMrrtJIUxrYYmvTbk8B8QLD3yS17HOxgSM5L4cYNCL_fe8gmbTP3gTO6NrqMFYaLSX3aNNaJyQLitVf_MKRDPGk5KCVfV4N_0bRTIYCVeiDvJDCNga8i4h__Etyzoh5vGicXoEh5VTfeKQ"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="px-2.5 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm uppercase tracking-wider font-semibold">Viral Base</span>
+<span class="px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-md text-on-surface font-label-sm uppercase tracking-wider">Clean Vegan</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-secondary transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">favorite</span>
+</button>
+</div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-on-surface font-bold">4.9</span>
+<span class="font-body-sm text-on-surface-variant">(9,150)</span>
+</div>
+<h3 class="font-headline-sm text-on-surface text-base font-semibold group-hover:text-primary transition-colors">
+            Glass Skin Hydration Melt Balm
+          </h3>
+<p class="font-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Bio-fermented Squalane + Ceramide makeup-gripping barrier</p>
+<div class="mt-3.5 mb-4">
+<div class="flex items-center justify-between text-on-surface-variant mb-1.5">
+<span class="font-label-sm uppercase">Universal Translucent</span>
+<span class="font-label-sm text-secondary font-semibold">Pore-Refining</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm">Skin Prep</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm">Barrier Fix</span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-surface-container flex items-center justify-between mt-2">
+<div>
+<span class="font-headline-sm text-on-surface font-bold">$38.00</span>
+<span class="font-label-sm text-on-surface-variant block uppercase">50g / 1.7 oz</span>
+</div>
+<button class="px-4 py-2.5 rounded-full bg-on-surface text-surface hover:bg-primary font-label-md uppercase tracking-wider transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+<span>Add</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SIGNATURE 3-STEP GLASS GLOW ROUTINE -->
+<section class="w-full bg-surface-container-low py-20 my-10">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="font-label-sm uppercase tracking-widest text-secondary font-bold">The Editorial Protocol</span>
+<h2 class="font-headline-lg text-on-surface mt-2">The 3-Step Signature Glass Glow Routine</h2>
+<p class="font-body-lg text-on-surface-variant mt-3">
+          Master the camera-ready glass skin look designed by celebrity makeup artists. Clean, layering-friendly, zero flashback.
+        </p>
+</div>
+<!-- 3 Steps Interactive Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-sm hover:shadow-md transition-shadow relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-lg font-bold text-primary px-3.5 py-1 rounded-full bg-primary-fixed">STEP 01</span>
+<span class="material-symbols-outlined text-on-surface-variant">water_drop</span>
+</div>
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Model gently massaging hydrating melt balm onto high points of cheekbones creating a glass skin reflection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmR2MacHaEVHXeW67s_9xdSRh4xEagJA2DZzaZhl7nE2f_thKSm4S0WMWMQYGzPfnR-hiukTVRiwuK8028tFvxm2d6RBscVolFDAXJDIJZA0z7K_5ye2K1nihOO3qVvthvHfq6LrGOvmX08tgKgnBRdO9x9ODxYrcmq8EWx1pAV9a0upfcn6N2VcWZzC3Rh6Hze18GRlwqo0XEg0rmh-FG36vHzSwPDQHjk-kJSY0"/>
+</div>
+<h3 class="font-headline-md text-on-surface text-xl mb-2">Prep &amp; Prime Melt</h3>
+<p class="font-body-md text-on-surface-variant leading-relaxed">
+              Warm a dime-sized amount between fingers. Melts instantly into an undetectable peptide veil that fills texture and locks moisture.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="font-label-sm uppercase text-on-surface-variant">Recommended: Melt Balm</span>
+<span class="font-label-md font-bold text-primary">$38</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-sm hover:shadow-md transition-shadow relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-lg font-bold text-secondary px-3.5 py-1 rounded-full bg-secondary-fixed">STEP 02</span>
+<span class="material-symbols-outlined text-on-surface-variant">brush</span>
+</div>
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Model applying liquid serum foundation with a plush angled buffing brush creating an even luminous complexion" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvNdjHabeoe-PjDNRPNmlTpRdAoxTFoXcmlpvXQzNyVvkas0LpwohPEPCnkf9E4RiVRsKiCwpYUpPmzI-K2IxpUJ0RZRWHv9w0Zsnk8rHMrCQxFHcpzS3otPGdNNzoX8qHGwX8ark_oy0Z0p45ZbLyb_1nFhL-2DYEj8JNmbZ4Rp9pYVPK5LZFhEPv1krpWrHdR0ko5eE266fjmpwc5SF6712yCsKWvElsvqvahyQ"/>
+</div>
+<h3 class="font-headline-md text-on-surface text-xl mb-2">Tint &amp; Conceal</h3>
+<p class="font-body-md text-on-surface-variant leading-relaxed">
+              Buff 2–3 drops of Lumi-Silk Serum Foundation outwards from the center of the face. Seamless medium build with a skin-like finish.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="font-label-sm uppercase text-on-surface-variant">Recommended: Lumi-Silk</span>
+<span class="font-label-md font-bold text-primary">$42</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-sm hover:shadow-md transition-shadow relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-lg font-bold text-tertiary px-3.5 py-1 rounded-full bg-tertiary-fixed">STEP 03</span>
+<span class="material-symbols-outlined text-on-surface-variant">air</span>
+</div>
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Model closing eyes while fine micro-droplets of facial setting mist cascade over face in soft warm sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBijXZZFspDcF1PmLukkT3pINhxDloEDi81rYvEkr06RtkzfjYFQtO46KTa3Botyb8IJSkFFeVJcp1FQ0-sbsHshFjotsvZNUIyqMYSSU2QHU0SWytgC5LE65GtUmp_nVkbsYIM9CiFV4vjpLZ_sL6Flj7UjAPJqINCeV_Ht1o9dIt_xFTmcULPcWdeQ1280CcRignXiMgGPX2_MTjFQ3MG79jJAxhfGgm3TWfEWIs"/>
+</div>
+<h3 class="font-headline-md text-on-surface text-xl mb-2">Dew Lock Mist</h3>
+<p class="font-body-md text-on-surface-variant leading-relaxed">
+              Spritz Dew Lock Setting Mist in an 'X' motion. Infused with rose hydrosol and electrolytes to seal hydration for up to 16 hours.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="font-label-sm uppercase text-on-surface-variant">Recommended: Lock Mist</span>
+<span class="font-label-md font-bold text-primary">$28</span>
+</div>
+</div>
+</div>
+<!-- Bundle Banner Card -->
+<div class="mt-12 bg-surface rounded-3xl p-8 shadow-lg flex flex-col lg:flex-row items-center justify-between gap-6">
+<div class="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+<div class="w-16 h-16 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-3xl">auto_fix_high</span>
+</div>
+<div>
+<span class="font-label-sm uppercase tracking-widest text-secondary font-bold">Bundle Offer</span>
+<h4 class="font-headline-sm text-on-surface text-xl font-bold">The Complete Glass Glow 3-Piece Kit</h4>
+<p class="font-body-md text-on-surface-variant">Get all 3 steps curated with your customized shade match.</p>
+</div>
+</div>
+<div class="flex items-center gap-5">
+<div class="text-right">
+<span class="font-body-sm text-on-surface-variant line-through block">$108.00</span>
+<span class="font-headline-md text-secondary font-bold leading-none">$86.40</span>
+</div>
+<button class="px-8 py-3.5 rounded-full bg-secondary hover:bg-secondary/90 text-on-secondary font-label-lg uppercase tracking-wider transition-all shadow-md" type="button">
+            Bundle &amp; Save 20%
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SHADE MATCH & VIRTUAL TRY-ON SPOTLIGHT -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-16">
+<div class="bg-surface-container rounded-3xl p-8 lg:p-14 shadow-lg overflow-hidden relative">
+<!-- Glow ambient background -->
+<div class="absolute -bottom-20 -right-20 w-80 h-80 bg-primary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Interactive Tool Form (7 cols) -->
+<div class="lg:col-span-7">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-highest text-on-surface-variant mb-4 font-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm text-primary">palette</span>
+<span>Intelligent Shade Engine</span>
+</div>
+<h2 class="font-headline-lg text-on-surface mb-3">
+            Find Your Absolute Skin Match in Under 60 Seconds
+          </h2>
+<p class="font-body-lg text-on-surface-variant mb-8">
+            Never guess your undertone again. Our shade matrix factors in depth, overtone warmth, and surface luminescence across 36 skin-true tones.
+          </p>
+<!-- Interactive Micro-Quiz Preview -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm mb-6 space-y-5">
+<!-- Tone Level -->
+<div>
+<label class="font-label-sm uppercase tracking-wider text-on-surface font-bold block mb-2">1. Select Your Skin Tone Depth</label>
+<div class="grid grid-cols-5 gap-2" id="depth-selector">
+<button class="depth-btn p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all ring-2 ring-primary" onclick="selectDepth(this, 'Fair')" type="button">
+<span class="w-6 h-6 rounded-full bg-[#fde8dc] mx-auto block mb-1"></span>
+<span class="font-label-sm block text-on-surface">Fair</span>
+</button>
+<button class="depth-btn p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all" onclick="selectDepth(this, 'Light-Med')" type="button">
+<span class="w-6 h-6 rounded-full bg-[#eed2b6] mx-auto block mb-1"></span>
+<span class="font-label-sm block text-on-surface">Light</span>
+</button>
+<button class="depth-btn p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all" onclick="selectDepth(this, 'Medium')" type="button">
+<span class="w-6 h-6 rounded-full bg-[#d09e74] mx-auto block mb-1"></span>
+<span class="font-label-sm block text-on-surface">Medium</span>
+</button>
+<button class="depth-btn p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all" onclick="selectDepth(this, 'Tan-Deep')" type="button">
+<span class="w-6 h-6 rounded-full bg-[#9c633f] mx-auto block mb-1"></span>
+<span class="font-label-sm block text-on-surface">Tan</span>
+</button>
+<button class="depth-btn p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all" onclick="selectDepth(this, 'Rich Deep')" type="button">
+<span class="w-6 h-6 rounded-full bg-[#4e2d1d] mx-auto block mb-1"></span>
+<span class="font-label-sm block text-on-surface">Rich</span>
+</button>
+</div>
+</div>
+<!-- Undertone Selection -->
+<div>
+<label class="font-label-sm uppercase tracking-wider text-on-surface font-bold block mb-2">2. What is your underlying tone?</label>
+<div class="grid grid-cols-3 gap-3">
+<label class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input checked="" class="accent-primary" name="undertone" type="radio"/>
+<div>
+<span class="font-label-md font-semibold text-on-surface block">Cool</span>
+<span class="font-body-sm text-on-surface-variant">Rosy, blue hints</span>
+</div>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input class="accent-primary" name="undertone" type="radio"/>
+<div>
+<span class="font-label-md font-semibold text-on-surface block">Neutral</span>
+<span class="font-body-sm text-on-surface-variant">Equal balance</span>
+</div>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input class="accent-primary" name="undertone" type="radio"/>
+<div>
+<span class="font-label-md font-semibold text-on-surface block">Warm</span>
+<span class="font-body-sm text-on-surface-variant">Golden, peach hints</span>
+</div>
+</label>
+</div>
+</div>
+</div>
+<!-- Result & Quick CTA -->
+<div class="flex flex-col sm:flex-row items-center gap-4">
+<a class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-primary hover:bg-primary/90 text-on-primary font-label-lg uppercase tracking-wider text-center transition-colors shadow-md" href="#">
+              Start Full 60s Shade Quiz
+            </a>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-sm uppercase">
+<span class="material-symbols-outlined text-secondary text-base">verified</span>
+<span>100% Free Shade Exchanges Guaranteed</span>
+</div>
+</div>
+</div>
+<!-- Diverse Models & Live Swatch Visual (5 cols) -->
+<div class="lg:col-span-5 grid grid-cols-2 gap-4">
+<div class="relative rounded-2xl overflow-hidden aspect-[4/5] bg-surface-container-high shadow-md">
+<img class="w-full h-full object-cover" data-alt="Portrait of an East Asian model with porcelain glass skin wearing shade 02 Warm Alabaster foundation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQXPjV676VOBcHjqRx5txZXAE-2gc4mPrNQBK9InEv7nzgpo-GBnFGG_VwY-0sXB-xMK4-60iU0WWXON-GXVpbm-tvUmYESkBDSmevF4UegyLEPgOBwfwiAQYZQxAyZVlcCBNOF-pmMvDUn-wsSHRVgQ_LKpCGzFaK2Jkjq2YnkjTs5QlKGij-qTUSF6h28Ya3nJYBuCR24_YFEYFEwNi-I6RbxC-hvJDeUKwgsBg"/>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-full bg-inverse-surface/80 backdrop-blur-md text-inverse-on-surface font-label-sm">Shade 02 • Fair Warm</span>
+</div>
+<div class="relative rounded-2xl overflow-hidden aspect-[4/5] bg-surface-container-high shadow-md mt-6">
+<img class="w-full h-full object-cover" data-alt="Portrait of a Black woman model with glowing rich mahogany skin tone wearing shade 34 Deep Espresso foundation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcB8FtAzILd9xdfPZAOXidsVCtXE0drT9bvPtOZudHw4FCmKB9_XOAhfdC0Sk7_xxnhCubx1A_e-Fjy-JhqWnoQuRzpXY1XBZLgBMppNQXbB-1ElOK5aTuXV4pGV3ZuZZPVJ479D4G-3A6nwnZkniaK_rEp-INkbpZBzjrkrhWSZdwV84nIMcqRyqKPmwNTESV8yM8w3FGYaP3pyL5EwV4T9xAggqwfCCtK3Fmzv4"/>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-full bg-inverse-surface/80 backdrop-blur-md text-inverse-on-surface font-label-sm">Shade 34 • Rich Neutral</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. REAL COMMUNITY UGC & CREATOR EDITORIAL REVIEWS -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="font-label-md text-secondary uppercase tracking-widest font-semibold">The Community</span>
+<h2 class="font-headline-lg text-on-surface mt-1">Real Glow. Real People.</h2>
+</div>
+<div class="flex items-center gap-2 mt-4 md:mt-0">
+<span class="font-label-md text-on-surface-variant">Showing verified creator &amp; client results</span>
+</div>
+</div>
+<!-- Editorial UGC Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-secondary font-bold uppercase tracking-wider">TikTok Viral Review</span>
+</div>
+<p class="font-headline-sm text-on-surface text-lg font-medium leading-snug mb-4">
+            "I threw out my other 4 foundations. This blends into actual skin and stays luminous through 12-hour set days."
+          </p>
+<div class="rounded-2xl overflow-hidden aspect-[4/3] mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Selfie style video still of beauty creator applying Lumi Silk Serum Foundation with glass glow skin reflection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgqB-iGt6wJB4_8g9Ds-j9jmeWI4BfuWbpqsusQYUy6wBKBGWZ2k7Cg_MiZugkoO7jl3UJC7yYNHuZuTlmASG-iV2BxRvye0gFQOTzLVmrDbwnNUoiSk0jgkctvN4Yt9rd44rLcJG0w_MCpWz08ceK_KYMAjTF0xVAPAjzFkHWNmNwTP0qimomtRXsHX_ziWBuHGVebYDmg0bgiVQVavb0GO403x7H-htYtfrlxw0"/>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Avatar headshot of beauty creator Maya Patel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxuRfeG1ns5Ml2lSy1Jt49IOTlh70gYSBDw0IgE0um63ubvzuGq2ukoDFObVrUS2P3npCXa3MeCSiajvHt2jH-N_Tz5D64lVkX4g9g1ik0uYJOmip5lzLhb3PnMswr4FcKrumRtvmos4Dnb0mxzdTm6A9y-oOgrGfpaMMNm-k3wSEY1ilQVE0dPGGqjmZrxtXwwDBRqKHEWyde6tZhSEXc6s6HXV1FAkzJN6yNzSM"/>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-label-md font-bold text-on-surface">Maya Patel</h4>
+<span class="material-symbols-outlined text-secondary text-sm">verified</span>
+</div>
+<p class="font-body-sm text-on-surface-variant">Wears Lumi-Silk Shade 14 Warm Honey</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-primary font-bold uppercase tracking-wider">Verified Purchaser</span>
+</div>
+<p class="font-headline-sm text-on-surface text-lg font-medium leading-snug mb-4">
+            "The Peptide Lip Oil in Rose Nectar is non-sticky witchcraft. My lips look twice as full and naturally tinted."
+          </p>
+<div class="rounded-2xl overflow-hidden aspect-[4/3] mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Aesthetic aesthetic swatch photo of plump glossy pink lips held beside the Rose Nectar lip oil tube" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc1_YEVP8xDFDDK35HTJukATFAlClbgEOhCEOX5VwYwQ_3NKwTQve8Pv6OFj2ebmLAzaSGj9MDkRkjWnM-ADNlEdOSARe2NKb-FMzu5xiOCBY5whoovN1WAhl6zjgvyfClzzB9gOER44utRHjEM0F4myOOLgT5ShiQXf1URWk6FgZrbkuBktQcH6G9t2Z2SDzZJ154YcXAKbGW05jiBr7f3HbhGGcXwwNQpCFWwXg"/>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Avatar headshot of customer Chloe Simmons smiling outdoors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgvNw4hOZAsNI0PcZmorfUclVIY5KaxkZD-wGZsT_P_Va6Y7P9VLdUXhI6-9DGl2ztMjea4NImH-dekk0qhSGWr5u9bQRl5h7tj-Ne6gg8gLFc1T-1vb_28EEnQF4AQeaAgbIee20nR-u8yN-APwtb1dq1ipyOZleAhSHic3IgumEawkzxjvtUDXLtrkhksMCsGKsgvpSZANVZotfeKuNhMP3usjik-AAa8eoxZd4"/>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-label-md font-bold text-on-surface">Chloe Simmons</h4>
+<span class="material-symbols-outlined text-secondary text-sm">verified</span>
+</div>
+<p class="font-body-sm text-on-surface-variant">Wears Peptide Lip Oil • Rose Nectar</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-secondary font-bold uppercase tracking-wider">MUA Pick</span>
+</div>
+<p class="font-headline-sm text-on-surface text-lg font-medium leading-snug mb-4">
+            "I used the Celestial Liquid Chrome on 8 models for Milan Fashion Week. Absolutely zero creasing or texture accentuation."
+          </p>
+<div class="rounded-2xl overflow-hidden aspect-[4/3] mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Backstage fashion week photo of makeup artist applying champagne highlighter to model face with natural dewy skin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA5GmS5Z4ZLeVeufcFqxg2PszxI0i_eG1SqSSzzxZRYCkFliylKMl_zfNhtCWxJMoegYxVT2EvMgvUXkRqYhAEOP2xZT8lxejbqEDxrVLETQvzKxFRdagW8qwCfSxlyQXNbOSV30pN_RpU9jpsAnT4TrfgOGw4VsCfjKsNsxvnL2N7uv0pkVkG64ZzZrpG15Du5q5SUc9PRPgvXn6hC9SFIB7K5OlLxb3xaAUsaAY"/>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Avatar headshot of celebrity makeup artist Antoine Laurent" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzFiqvHoBDGk_-aunDNHWosng5iOh_Gag2xD1U-MurK_2jRd2Y4VjAxedLkUlGtCZ8AvwCXWIM2tdIDP-BTv0EGHPWLyoA5lY2mWp72xNK1emdoHS3ZVUdlRfZfnIFr_XMlkNQX8Oe8nfNat5_mubcI1L_udlfGJNI8jJti4XBZG4w1fQYymTyUFV27jq6YCG5Hr0sJq0Z4e-SHiNtPIDPml11F0PT2_8JpNoxmpc"/>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-label-md font-bold text-on-surface">Antoine Laurent</h4>
+<span class="material-symbols-outlined text-secondary text-sm">verified</span>
+</div>
+<p class="font-body-sm text-on-surface-variant">Editorial Makeup Artist • Paris/NYC</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. VIP BEAUTY CLUB & BRAND PROMISES -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-6 pb-12">
+<!-- Brand Guarantees Ribbon -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 bg-surface-container-low rounded-3xl p-8 mb-12">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div>
+<h4 class="font-label-md font-bold text-on-surface uppercase">100% Match Guarantee</h4>
+<p class="font-body-sm text-on-surface-variant">Free shade exchanges</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">cruelty_free</span>
+</div>
+<div>
+<h4 class="font-label-md font-bold text-on-surface uppercase">Leaping Bunny</h4>
+<p class="font-body-sm text-on-surface-variant">Certified 100% cruelty-free</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">eco</span>
+</div>
+<div>
+<h4 class="font-label-md font-bold text-on-surface uppercase">Clean Standard</h4>
+<p class="font-body-sm text-on-surface-variant">Zero parabens &amp; phthalates</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">local_shipping</span>
+</div>
+<div>
+<h4 class="font-label-md font-bold text-on-surface uppercase">Carbon-Neutral</h4>
+<p class="font-body-sm text-on-surface-variant">Recycled luxury packaging</p>
+</div>
+</div>
+</div>
+<!-- VIP Beauty Club Tier Banner -->
+<div class="relative bg-gradient-to-r from-on-surface via-inverse-surface to-on-surface text-surface rounded-3xl p-8 lg:p-12 shadow-xl overflow-hidden">
+<!-- Golden Shimmer Decorative Lines -->
+<div class="absolute -right-10 -bottom-10 w-96 h-96 bg-primary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+<div class="max-w-2xl text-center lg:text-left">
+<span class="inline-block px-3.5 py-1 rounded-full bg-primary text-on-primary font-label-sm uppercase tracking-widest font-bold mb-3">
+            VIP Beauty Society Tier Perks
+          </span>
+<h3 class="font-headline-lg text-surface mb-3 leading-tight">
+            Unlock Secret Formula Drops &amp; VIP Tier Rewards
+          </h3>
+<p class="font-body-md text-surface-container-high opacity-90 max-w-xl">
+            Earn 1 Glow Point for every $1 spent. Redeem for full-size limited edition pigments, free birthday gifts, and private masterclasses with celebrity artists.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
+<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-lg uppercase tracking-wider text-center transition-colors shadow-lg" href="#">
+            Join VIP For Free
+          </a>
+<a class="w-full sm:w-auto px-7 py-4 rounded-full bg-surface/10 hover:bg-surface/20 text-surface font-label-lg uppercase tracking-wider text-center transition-colors" href="#">
+            Learn More
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for shade selector preview -->
+<script>
+    function selectDepth(btn, depthName) {
+      document.querySelectorAll('.depth-btn').forEach(b => {
+        b.classList.remove('ring-2', 'ring-primary');
+      });
+      btn.classList.add('ring-2', 'ring-primary');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low pt-space-xl pb-12 mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin"><div class="bg-surface rounded-lg p-space-xl shadow-[0_10px_30px_-10px_rgba(123,30,58,0.06)] flex flex-col lg:flex-row items-center justify-between gap-space-lg mb-space-xl"><div class="max-w-xl text-center lg:text-left"><span class="font-label-sm uppercase tracking-widest text-secondary font-bold">The Glow Society Inner Circle</span><h3 class="font-headline-md text-on-surface mt-1">Get 15% off your first drop &amp; early access to secret sales</h3><p class="font-body-md text-on-surface-variant mt-2">Curated formula drops, bespoke seasonal gift boxes, and masterclass invitations directly to your inbox.</p></div><div class="w-full lg:w-auto flex flex-col sm:flex-row gap-2 max-w-md"><input class="px-5 py-3 rounded-full bg-surface-container-lowest text-body-sm text-on-surface outline-none border border-outline-variant focus:border-primary flex-1" placeholder="Enter your haute email" type="email"/><button class="bg-primary hover:bg-primary-container text-on-primary hover:text-on-primary-container px-6 py-3 rounded-full font-label-md uppercase tracking-wider transition-all shadow-md" type="button">Claim 15% Off</button></div></div><div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-space-lg mb-space-xl"><div class="col-span-2 lg:col-span-1"><div class="flex items-center gap-2 mb-4"><img alt="GLOW SOCIETY" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCPkXyv0VLl3taPGxhUoL7UmgPebgEBD66Gkr5EdIRI8s1f5p91aB2IZFfbw6qB9Nxh93zyReQyWc-uIL2ot6VnC9BmEXkLtdN3Bz9x04jYXL3UWgKZYIhulLjjKoVeMKc51w31OA9snTUH_NMmj0A4rAFI4OfhjIJP44EfZogiAzUZwky4A-9C2lHdmNjg1IMgE2gRX00iIBxZqQgL4Hxhnj7C58u5vDdICB0HRvk"/><span class="font-headline-sm uppercase tracking-wider text-on-surface font-semibold">GLOW SOCIETY</span></div><p class="font-body-sm text-on-surface-variant mb-4">Tactile radiance, bespoke formulas, and modern editorial glam for the fearless beauty devotee.</p><div class="flex items-center gap-2"><span class="font-label-sm uppercase px-2 py-1 rounded-full bg-surface-container-high text-on-surface-variant">Clean Certified</span><span class="font-label-sm uppercase px-2 py-1 rounded-full bg-surface-container-high text-on-surface-variant">100% Leaping Bunny</span></div></div><div><h4 class="font-label-md uppercase tracking-widest text-on-surface font-bold mb-4">Complexion</h4><ul class="space-y-2.5"><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Hydra-Glow Foundation</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Glass Skin Primers</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Luminous Concealer</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Champagne Highlighters</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Bespoke Setting Mist</li></ul></div><div><h4 class="font-label-md uppercase tracking-widest text-on-surface font-bold mb-4">Lip Studio</h4><ul class="space-y-2.5"><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Velvet Matte Lacquers</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Peptide Glaze Oils</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Plumping Nude Balms</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Precision Contour Liners</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Overnight Lip Masks</li></ul></div><div><h4 class="font-label-md uppercase tracking-widest text-on-surface font-bold mb-4">Eye Alchemy</h4><ul class="space-y-2.5"><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Liquid Shimmer Pigments</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Editorial Foil Palettes</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Smudge Vinyl Liners</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Feather Lash Serum</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Brow Sculpting Pomade</li></ul></div><div><h4 class="font-label-md uppercase tracking-widest text-on-surface font-bold mb-4">Concierge</h4><ul class="space-y-2.5"><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Shade Match Guarantee</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Track Order Status</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Express Global Delivery</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Clean Manifesto</li><li class="font-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Returns &amp; Exchanges</li></ul></div></div><div class="pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-body-sm text-on-surface-variant">© 2025 GLOW SOCIETY COSMETICS INC. All rights reserved. Crafted with clean vegan pigments.</p><div class="flex items-center gap-3"><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">Apple Pay</span><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">Klarna</span><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">PayPal</span><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">Visa</span><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">Mastercard</span><span class="font-label-sm text-on-surface-variant bg-surface px-2.5 py-1 rounded border border-outline-variant/40">Amex</span></div></div></div></footer></body></html>
